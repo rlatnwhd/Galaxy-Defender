@@ -1,0 +1,24 @@
+/* 기본 페이지 스타일 */
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000; /* 캔버스 밖도 어두운 우주 느낌 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 캔버스 중앙 정렬 및 선명도 */
+canvas {
+    background: black;
+    display: block;
+    margin: 0; /* 중앙 정렬을 위해 margin을 0으로 설정 */
+    border: 1px solid #111; /* 변경된 테두리 색상 */
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    box-shadow: 0 0 24px rgba(0,0,0,0.8);
+}
